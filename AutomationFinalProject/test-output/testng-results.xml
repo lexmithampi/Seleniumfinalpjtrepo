@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-08T10:19:26 GMT+03:00" name="Suite" finished-at="2026-10-08T10:19:46 GMT+03:00" duration-ms="19901">
+    <groups>
+    </groups>
+    <test started-at="2026-10-08T10:19:26 GMT+03:00" name="Test" finished-at="2026-10-08T10:19:46 GMT+03:00" duration-ms="19901">
+      <class name="testscript.AdminUserTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:26 GMT+03:00" name="initializeBrowser" finished-at="2026-10-08T10:19:30 GMT+03:00" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserIsAbleToAddNewUser()[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:30 GMT+03:00" name="verifyAdminUserIsAbleToAddNewUser" description="Verify Admin is able to Add New User" finished-at="2026-10-08T10:19:35 GMT+03:00" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserIsAbleToAddNewUser -->
+        <test-method is-config="true" signature="browserCloseAndQuit(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:35 GMT+03:00" name="browserCloseAndQuit" finished-at="2026-10-08T10:19:36 GMT+03:00" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserIsAbleToAddNewUser status=SUCCESS method=AdminUserTest.verifyAdminUserIsAbleToAddNewUser()[pri:0, instance:testscript.AdminUserTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:36 GMT+03:00" name="initializeBrowser" finished-at="2026-10-08T10:19:38 GMT+03:00" duration-ms="2576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserIsAbleToResetAdminUserList()[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:38 GMT+03:00" name="verifyAdminUserIsAbleToResetAdminUserList" description="Verify Admin is able to reset Admin User List" finished-at="2026-10-08T10:19:40 GMT+03:00" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserIsAbleToResetAdminUserList -->
+        <test-method is-config="true" signature="browserCloseAndQuit(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:40 GMT+03:00" name="browserCloseAndQuit" finished-at="2026-10-08T10:19:41 GMT+03:00" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserIsAbleToResetAdminUserList status=SUCCESS method=AdminUserTest.verifyAdminUserIsAbleToResetAdminUserList()[pri:0, instance:testscript.AdminUserTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:41 GMT+03:00" name="initializeBrowser" finished-at="2026-10-08T10:19:43 GMT+03:00" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserIsAbleToSearchNewUser()[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:43 GMT+03:00" name="verifyAdminUserIsAbleToSearchNewUser" description="Verify Admin is able to search the newly added user" finished-at="2026-10-08T10:19:46 GMT+03:00" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserIsAbleToSearchNewUser -->
+        <test-method is-config="true" signature="browserCloseAndQuit(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserTest@169bb4dd]" started-at="2026-10-08T10:19:46 GMT+03:00" name="browserCloseAndQuit" finished-at="2026-10-08T10:19:46 GMT+03:00" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserIsAbleToSearchNewUser status=SUCCESS method=AdminUserTest.verifyAdminUserIsAbleToSearchNewUser()[pri:0, instance:testscript.AdminUserTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+      </class> <!-- testscript.AdminUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
