@@ -14,6 +14,7 @@ public class Constant {
 	public static final String ADMINRESETERROR = "User was able to reset users";
 	public static final String ADDNEWDELBOYERROR = "User was able to add new delivery boy";
 	public static final String SEARCHDELBOYERROR = "User was able to search delivery boy";
+	public static final String DROPDOWNVALUE = "staff";
 	
 	
 	
